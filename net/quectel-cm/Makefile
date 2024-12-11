@@ -4,14 +4,6 @@ PKG_NAME:=quectel-cm
 PKG_VERSION:=1.6.5
 PKG_RELEASE:=2
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=@IMMORTALWRT
-PKG_HASH:=d2d888d457ef7fd02249c42b2f56d77513285957cd0c02f240a390de1f23e3fd
-
-PKG_LICENSE:=Public Domain
-PKG_LICENSE_FILES:=NOTICE
-PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
-
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
 
